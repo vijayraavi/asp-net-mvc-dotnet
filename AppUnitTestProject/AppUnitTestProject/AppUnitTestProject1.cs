@@ -14,12 +14,12 @@ namespace AppUnitTestProject
             Assert.IsTrue(1 == 1);
         }
 
-        //[TestMethod]
-        //[TestCategory("MathTest")]
-        //public void TestMethod2()
-        //{
-        //    System.Console.WriteLine("Test Method 2 Failed");
-        //    Assert.IsTrue(1 == 2);
-        //}
+        [TestMethod]
+        [TestCategory("MathTest")]
+        public void TestMethod2()
+        {
+            System.Console.WriteLine("Test Method 2 Failed");
+            Assert.IsTrue(1 == 2);
+        }
     }
 }
